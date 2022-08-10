@@ -19,7 +19,6 @@ public class LoginFormController {
 
     private final String o_user = "oshada";
     private final String o_password = "admin";
-    Stage primaryStage;
 
     public void loginOnAction(ActionEvent actionEvent) throws IOException {
         if (n_user == txtUsername.toString() && n_password == txtPassword.toString()) {
