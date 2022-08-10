@@ -13,7 +13,7 @@ public class LoginInitializer extends Application {
 
     @Override
     public void start(Stage primaryStage) throws IOException {
-        primaryStage.setScene(new Scene(FXMLLoader.load(getClass().getResource("views/LoginForm.fxml"))));
+        primaryStage.setScene(new Scene(FXMLLoader.load(getClass().getResource("views/OshadaForm.fxml"))));
         primaryStage.show();
     }
 }
