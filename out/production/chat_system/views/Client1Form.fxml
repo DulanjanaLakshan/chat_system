@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="589.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Client1FormController">
+   <children>
+      <AnchorPane layoutX="4.0" prefHeight="589.0" prefWidth="494.0">
+         <children>
+            <TextField fx:id="txtmsg" layoutX="22.0" layoutY="534.0" onAction="#msgOnAction" prefHeight="34.0" prefWidth="316.0" />
+            <Button layoutX="384.0" layoutY="534.0" mnemonicParsing="false" onAction="#sendbtn" prefHeight="34.0" prefWidth="96.0" text="Send" />
+            <Label fx:id="lblname" layoutX="13.0" layoutY="14.0" prefHeight="34.0" prefWidth="160.0">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Button layoutX="345.0" layoutY="534.0" mnemonicParsing="false" onAction="#camaraOnAction" prefHeight="34.0" prefWidth="29.0" text="..." />
+            <VBox fx:id="vbox" layoutX="20.0" layoutY="67.0" prefHeight="455.0" prefWidth="443.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
